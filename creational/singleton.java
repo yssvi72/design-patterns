@@ -1,4 +1,4 @@
-/* Singleton pattern means that only a single instance of class can be created ---> it is used in scenarios wherein a single object instance needs to be used across all modules like in */
+/* Singleton pattern means that only a single instance of class can be created ---> it is used in scenarios wherein a single object instance needs to be used across all modules */
 //Option 1 Synchronized Method (Simple but slower)
 public class Singleton {
 
