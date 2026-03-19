@@ -1,7 +1,6 @@
 /* Singleton pattern means that only a single instance of class can be created ---> it is used in scenarios wherein a single object instance needs to be used across all modules */
 //Option 1 Synchronized Method (Simple but slower)
 public class Singleton {
-
     private static volatile Singleton instance;  //<-----------------why volatile , without it-- JVM may reorder instructions or Another thread may see partially constructed object
 
     private Singleton() {}
